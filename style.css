@@ -37,3 +37,19 @@ h2 {
 #aut-name {
   font-weight: bold;
 }
+
+.header-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container,
+.link-container {
+  flex: auto;
+  display: flex;
+}
+.link {
+  flex: auto;
+}
