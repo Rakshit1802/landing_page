@@ -1,0 +1,39 @@
+.hero {
+  background-color: #1f2937;
+}
+
+.logo-container {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero-sec-txt {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.btn,
+.info {
+  background-color: #3882f6;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.quote-section {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+#aut-name {
+  font-weight: bold;
+}
