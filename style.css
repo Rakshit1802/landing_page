@@ -42,12 +42,6 @@ h2 {
 .quote-section {
   background-color: #e5e7eb;
   font-size: 36px;
-  font-weight: lighter;
-  color: #1f2937;
-}
-
-#aut-name {
-  font-weight: bold;
 }
 
 /* .logo {
@@ -181,4 +175,31 @@ header {
 .img-info {
   height: 60px;
   width: 180px;
+}
+
+.quote-section {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes {
+  width: 47%;
+  height: 250px;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  align-self: center;
+  font-weight: 200;
+  color: #1f2931;
+}
+
+#aut-name {
+  font-weight: bold;
+  text-align: right;
+  font-size: 25px;
+}
+
+.imp {
+  margin-bottom: 10px;
 }
