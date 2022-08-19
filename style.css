@@ -29,10 +29,6 @@ h1 {
   font-weight: bolder;
 }
 
-.info {
-  background-color: #3882f6;
-}
-
 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -135,12 +131,6 @@ header {
   font-weight: bold;
 }
 
-.btn-two {
-  border-width: 3px;
-  border-color: #f9faf8;
-  box-sizing: border-box;
-}
-
 .main-info {
   display: flex;
   flex-direction: column;
@@ -202,4 +192,55 @@ header {
 
 .imp {
   margin-bottom: 10px;
+}
+
+.ending-info {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.info {
+  background-color: #3882f6;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.ded {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center; */
+  width: 80%;
+  text-align: left;
+}
+
+.info-txt {
+  width: 70%;
+}
+
+.btn-two {
+  border-width: 3px;
+  border-color: white;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.ending {
+  padding-top: 40px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: #f9faf8;
 }
