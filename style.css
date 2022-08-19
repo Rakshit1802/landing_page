@@ -145,17 +145,38 @@ header {
   box-sizing: border-box;
 }
 
-.img-minor,
-.img-min {
-  height: 160px;
-  width: 160px;
-}
-
 .main-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 450px;
+  width: 100%;
 }
 
-.
+.img-minor {
+  /* flex: auto; */
+  width: 185px;
+  height: 239px;
+  text-align: center;
+}
+
+.img-min {
+  height: 179px;
+  width: 179px;
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+}
+
+.img-container-sec {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 50%;
+  height: 240px;
+}
+
+.img-info {
+  height: 60px;
+  width: 180px;
+}
